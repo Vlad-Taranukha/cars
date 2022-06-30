@@ -1,0 +1,67 @@
+body {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.header {
+  padding: 10px;
+  background: #212838;
+}
+.header__phone-icon {
+  width: 18px;
+  margin-right: 10px;
+}
+
+.logo {
+  color: #fff;
+  font-weight: bold;
+  font-size: 36px;
+  text-decoration: none;
+}
+.logo:hover {
+  color: #fff;
+}
+
+.phone {
+  color: #fff;
+  text-decoration: none;
+}
+.phone:hover {
+  color: #fff;
+}
+.phone__icon {
+  width: 18px;
+  margin-right: 5px;
+}
+
+.car-img {
+  max-width: 100%;
+}
+
+.car-color {
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+}
+
+.footer {
+  padding: 10px;
+  background: #212838;
+}
+.footer__copy {
+  text-align: center;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.no-image {
+  max-width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
